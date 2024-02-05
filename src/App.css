@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.selected {
+  background-color: blue;
+  color: white;
+}
+
+.vertical-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ボタンを中央揃えにする */
+  gap: 10px; /* ボタン間の隙間を設定 */
+}
+
+.app-container {
+  margin: 0 auto; /* 中央寄せ */
+  max-width: 768px; /* スマホサイズに相当する最大幅 */
+  width: 100%; /* ビューポートの幅が max-width 以下の場合は、ビューポートの幅全体を使用 */
+}
